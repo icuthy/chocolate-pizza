@@ -251,9 +251,37 @@ header {
 }
 
 .ingredients {
-	background: url("images/ingredient-list.jpg") top no-repeat;
+	background: url("images/yellowpad.jpg") top no-repeat;
     padding: 10px 0;
     height: 306px;
+}
+
+.ingredients ul {
+	list-style-type: none;
+	width:716px;
+	overflow:hidden;  
+    margin: 29px 0 20px 58px; 
+}
+
+.ingredients li {
+	line-height: 31px;
+	float:left;
+  	display:inline;
+  	cursor: pointer;
+  	padding-left: 25px; 
+  	width:46%;
+}
+
+.checkbox {
+    background-image: url("images/unchecked.jpg");
+    background-repeat: no-repeat;
+    background-position: 0px center; 
+}
+
+.checkboxtop {
+    background-image: url("images/unchecked.jpg");
+    background-repeat: no-repeat;
+    background-position: 0px 8px; 
 }
 
 footer {
@@ -268,4 +296,9 @@ footer img {
 	position: absolute; 
 	left: 425px; 
 	top: -75px;
+}
+
+.show-check {
+	text-decoration: line-through;
+	background-image: url("images/checked.jpg");
 }
