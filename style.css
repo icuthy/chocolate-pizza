@@ -1,0 +1,271 @@
+/********************************************
+	Tag Resets
+********************************************/
+
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+th,
+td,
+article,
+aside,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/********************************************
+	Normalize CSS
+	http://necolas.github.com/normalize.css/
+********************************************/
+
+html {
+	height: 100%;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+
+body {
+	min-height: 100%;
+	font-size: 100%;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+audio,
+canvas,
+video {
+	display: block;
+}
+
+sub,
+sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sup {
+	top: -0.5em;
+}
+
+sub {
+	bottom: -0.25em;
+}
+
+pre {
+	white-space: pre;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+b,
+strong {
+	font-weight: bold;
+}
+
+abbr[title] {
+	border-bottom: 1px dotted;
+}
+
+input,
+textarea,
+button,
+select {
+	margin: 0;
+	font-size: 100%;
+	line-height: normal;
+	vertical-align: baseline;
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	cursor: pointer;
+	-webkit-appearance: button;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+textarea {
+	overflow: auto;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ******************************************
+	Web Fonts
+****************************************** */
+
+h1  {
+	font-family: 'Oswald', sans-serif;
+	font-weight:700;
+	font-size: 40px;
+	line-height: 44px;
+	}
+
+h3  {
+	font-family: 'Droid Serif', serif;
+	font-weight:700;
+	font-size: 20px;
+	line-height: 24px;
+    }
+
+h4  {
+	font-family: 'Oswald', sans-serif;
+	font-weight:300;
+	font-size: 13px;
+	line-height: 26px;
+	color: #b7b7b7;
+	letter-spacing: 1px;
+	}
+
+p   {
+	font-size: 16px;
+    line-height: 26px;
+    font-family: 'Droid Serif', serif;
+    font-weight: 400px;
+    color: #5E5E5E;
+}
+h1,h3 {
+    color: #333;
+}
+
+ul {
+	font-family: 'Patrick Hand', cursive;
+	font-size: 24px;
+	font-weight: 400px;
+	color: #666666; 
+}
+
+/*******************************************
+	Blog Styles
+*******************************************/
+
+body {
+  	font-family: helvetica, sans-serif;
+  	margin: 0 0 0 0;
+  	height: 2014px;
+  	width: 900px;
+  	margin: 0 auto;
+}
+
+header {
+	position:relative;
+	height: 110px;
+	background-image: url('images/socialicons.png');
+	background-position: top right;
+	background-repeat: no-repeat;
+}
+
+#logo {
+	position:absolute;
+	left:0;
+	top: 0;
+}
+
+.container-content {
+    background: url("images/horizontalbar.png") top no-repeat;
+	padding: 70px 0 20px 0;
+}
+
+.recipe {
+	background: url("images/print-btn.png") top 45px right no-repeat;
+
+}
+.recipe img {
+	width: 900px;
+	margin: 25px 0 15px 0;
+}
+
+.recipe p {
+    text-indent: 35px;
+    margin: 20px 0;
+}
+
+.author {
+	background: url("images/horizontalbar.png") top no-repeat;
+	border-bottom: 1px solid #CCC;
+    margin: 20px 0 30px 0;
+    padding: 30px 0 70px 0;
+}
+
+.portrait {
+	display:inline-block;
+}
+
+.bio {
+	width: 600px;
+	display: inline-block;
+    margin: 10px 10px 20px 18px;
+}
+
+.bio h3 {
+	display: inline-block; 
+	align:top;
+}
+
+.ingredients {
+	background: url("images/ingredient-list.jpg") top no-repeat;
+    padding: 10px 0;
+    height: 306px;
+}
+
+footer {
+	text-align: center;
+	line-height: 22px;
+	font-size: 14px;
+	color: #b7b7b7;
+	position:relative;
+}
+
+footer img {
+	position: absolute; 
+	left: 425px; 
+	top: -75px;
+}
